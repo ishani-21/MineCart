@@ -1,0 +1,68 @@
+/*================================================================================
+	Item Name: Apex - Angular 4 Bootstrap Admin Template
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+
+
+table.dataTable,
+table{
+	width: 100% !important;
+	white-space: nowrap;
+}
+.table.break-table,
+.table.break-table td{
+	white-space: initial;
+}
+.table.break-table th{
+	white-space: nowrap;
+}
+.desc-table {
+	max-width: 300px;
+	max-height: 150px;
+	overflow-x: hidden;
+	padding-right: 15px;
+}
+
+/* width */
+.desc-table::-webkit-scrollbar {
+	width: 6px;
+  }
+  
+  /* Track */
+  .desc-table::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey; 
+	border-radius: 10px;
+  }
+   
+  /* Handle */
+  .desc-table::-webkit-scrollbar-thumb {
+	background: #ddd; 
+	border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .desc-table::-webkit-scrollbar-thumb:hover {
+	background: #ececec; 
+  }
+
+.desc-table p{
+	word-break: break-word;
+}
+
+.was-validated .form-control:invalid:focus, .form-control.is-invalid:focus{
+	box-shadow: none;
+}
+
+@media (min-width:1200px){
+	.modal-large {
+		max-width: 1363px;
+	}
+}

@@ -1,0 +1,17 @@
+.form-flex-img-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.flex-img-box {
+    display: flex;
+    align-items: center;
+}
+.form-flex-img-box .form-check-input{
+    margin-top: 1.25em;
+}
+.label-data-flex{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
